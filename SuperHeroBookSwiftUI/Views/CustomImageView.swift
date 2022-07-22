@@ -13,7 +13,7 @@ struct CustomImageView: View {
     
     var body: some View {
         
-        Image("batman")
+        image
             .resizable()
             .aspectRatio(contentMode: .fit)
             .clipShape(Circle())
