@@ -11,6 +11,7 @@
 		DE5F04D7288B20860001FAB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F04D6288B20860001FAB5 /* ContentView.swift */; };
 		DE5F04D9288B20880001FAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5F04D8288B20880001FAB5 /* Assets.xcassets */; };
 		DE5F04DC288B20880001FAB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5F04DB288B20880001FAB5 /* Preview Assets.xcassets */; };
+		DE5F04E5288B23990001FAB5 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F04E4288B23990001FAB5 /* SuperHero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DE5F04D6288B20860001FAB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE5F04D8288B20880001FAB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE5F04DB288B20880001FAB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE5F04E4288B23990001FAB5 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,8 @@
 		DE5F04D3288B20860001FAB5 /* SuperHeroBookSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				DE5F04D4288B20860001FAB5 /* SuperHeroBookSwiftUIApp.swift */,
+				DE5F04E3288B238B0001FAB5 /* Resources */,
+				DE5F04E2288B23850001FAB5 /* Model */,
 				DE5F04D6288B20860001FAB5 /* ContentView.swift */,
 				DE5F04D8288B20880001FAB5 /* Assets.xcassets */,
 				DE5F04DA288B20880001FAB5 /* Preview Content */,
@@ -65,6 +68,22 @@
 				DE5F04DB288B20880001FAB5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE5F04E2288B23850001FAB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE5F04E4288B23990001FAB5 /* SuperHero.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE5F04E3288B238B0001FAB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE5F04D4288B20860001FAB5 /* SuperHeroBookSwiftUIApp.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +158,7 @@
 			files = (
 				DE5F04D7288B20860001FAB5 /* ContentView.swift in Sources */,
 				DE5F04D5288B20860001FAB5 /* SuperHeroBookSwiftUIApp.swift in Sources */,
+				DE5F04E5288B23990001FAB5 /* SuperHero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
