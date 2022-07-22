@@ -12,6 +12,7 @@
 		DE5F04D9288B20880001FAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5F04D8288B20880001FAB5 /* Assets.xcassets */; };
 		DE5F04DC288B20880001FAB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5F04DB288B20880001FAB5 /* Preview Assets.xcassets */; };
 		DE5F04E5288B23990001FAB5 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F04E4288B23990001FAB5 /* SuperHero.swift */; };
+		DE5F04E7288B263E0001FAB5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F04E6288B263E0001FAB5 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		DE5F04D8288B20880001FAB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE5F04DB288B20880001FAB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE5F04E4288B23990001FAB5 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		DE5F04E6288B263E0001FAB5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				DE5F04D6288B20860001FAB5 /* ContentView.swift */,
 				DE5F04D8288B20880001FAB5 /* Assets.xcassets */,
 				DE5F04DA288B20880001FAB5 /* Preview Content */,
+				DE5F04E6288B263E0001FAB5 /* MapView.swift */,
 			);
 			path = SuperHeroBookSwiftUI;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE5F04D7288B20860001FAB5 /* ContentView.swift in Sources */,
+				DE5F04E7288B263E0001FAB5 /* MapView.swift in Sources */,
 				DE5F04D5288B20860001FAB5 /* SuperHeroBookSwiftUIApp.swift in Sources */,
 				DE5F04E5288B23990001FAB5 /* SuperHero.swift in Sources */,
 			);
